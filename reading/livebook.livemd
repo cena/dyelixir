@@ -121,7 +121,9 @@ Livebook may change this UI, so if this is instruction is no longer accurate ple
 
 Create an Elixir code cell below. Run some Elixir code such as `1 + 2` in the cell.
 
-<!-- livebook:{"break_markdown":true} -->
+```elixir
+1 + 2
+```
 
 ### Livebook Shortcuts
 
@@ -151,7 +153,7 @@ to see the Markdown content inside.
 
 <!-- livebook:{"break_markdown":true} -->
 
-<div style="padding: 1rem;background-color:lightgray; text-align: center;">
+<div style="padding: 1rem;background-color:lightblue; text-align: center;">
 
 ### Click Me Then Press Edit<i Class="ri-pencil-line"></i>
 
@@ -190,7 +192,7 @@ automatically evaluate when you evaluate a cell below.
 Here are two empty Elixir cells. By default, an empty cell returns `nil`.
 
 ```elixir
-
++ 2
 ```
 
 ```elixir
@@ -208,7 +210,7 @@ Evaluate the Elixir cell below, then change `5` to `4` to see **Evaluated** chan
 Re-evaluate the cell to see *Evaluated\** change to **Evaluated**.
 
 ```elixir
-5
+4
 ```
 
 Sometimes order of evaluation can cause issues in Exercises by using a stale version of an Elixir cell. Make sure to evaluate a code cell whenever you make a change.
